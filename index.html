@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title> RPG Game </title>
+</head>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+
+
+
+
+<body onload="startUp()">
+<img src="assets/images/logo.png" id="logo" align="right">
+<h2> Select a character to start!</h2>
+<characters id="characters"> </characters>
+<h2> Your Character </h2>
+<div id="yourCharacter"></div>
+<h2> Select an enemies available to attack! </h2>
+<div id="availableEnemies"> </div>
+<h2> Fight Section </h2>
+<button id="attack"> Attack </button>
+<h2> Defender </h2>
+<div id="defender"></div>
+
+<p>You attack xyz for <span id="yourAtkDmg"></span></p>
+<div id="dHp"> </div>
+<div id="cAtk"> </div>
+<div id="dAtk"></div>
+<div id="cHp"></div>
+
+<p>xyz attacks you for <span id="counterAtkDmg"></span></p>
+
+<h2 id="notice"></h2>
+
+<button id="restart"> Restart </button>
+
+
+</body>
+
+
+</html>
