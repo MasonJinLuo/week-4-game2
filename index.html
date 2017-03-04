@@ -11,7 +11,7 @@
 
 
 
-<body onload="startUp()">
+<body>
 <img src="assets/images/logo.png" id="logo" align="right">
 <h2> Select a character to start!</h2>
 <characters id="characters"> </characters>
@@ -24,13 +24,14 @@
 <h2> Defender </h2>
 <div id="defender"></div>
 
-<p>You attack xyz for <span id="yourAtkDmg"></span></p>
+<p> You attack <span class="defenderName"></span> for <span id="yourAtkDmg"></span></p>
+
 <div id="dHp"> </div>
 <div id="cAtk"> </div>
 <div id="dAtk"></div>
 <div id="cHp"></div>
 
-<p>xyz attacks you for <span id="counterAtkDmg"></span></p>
+<p> <span class="defenderName"></span> attacks you for <span id="counterAtkDmg"></span></p>
 
 <h2 id="notice"></h2>
 

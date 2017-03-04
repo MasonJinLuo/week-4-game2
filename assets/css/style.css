@@ -1,7 +1,7 @@
 .img-button {
 	width: 200px;
 	height: 200px;
-	margin: 5px;
+	margin: 10px;
 }
 
 body {
@@ -18,3 +18,17 @@ body {
 	width: 600px;
 
 }
+
+
+#moonWrapper, #marsWrapper, #venusWrapper, #plutoWrapper{
+	display: inline-block;
+}
+
+#moonHp, #marsHp, #venusHp, #plutoHp{
+	text-align: center;
+	background-color: deeppink;
+	font-size: 20px;
+	margin: 10px;
+}
+
+
