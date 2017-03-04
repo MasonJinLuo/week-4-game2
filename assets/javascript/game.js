@@ -143,7 +143,7 @@ function event () {
                 $("#availableEnemies").append(availableEnemies[i]); 
                 
             }
-
+                availableCharacters = []
         }
         
         else if (defenders.length === 0){
